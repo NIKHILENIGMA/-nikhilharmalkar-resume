@@ -1,3 +1,5 @@
-import * as formattedResume from "./resume";
+#!/usr/bin/env node
 
-console.log(formattedResume);
+import { formattedResume } from "./resume";
+
+console.log(formattedResume); // This prints your resume in the terminal

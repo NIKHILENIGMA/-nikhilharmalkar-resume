@@ -1,0 +1,33 @@
+{
+  "name": "@nikhilharmalkar/resume",
+  "description": "A CLI tool that displays Nikhil Harmalkar's resume when installed and run",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "@nikhilharmalkar/resume": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "resume",
+    "CLI",
+    "Nikhil Harmalkar"
+  ],
+  "author": "Nikhil Harmalkar",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1"
+  }
+}

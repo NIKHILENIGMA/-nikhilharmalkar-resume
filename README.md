@@ -5,7 +5,7 @@ A simple NPX package to display Nikhil's resume and contact information directly
 ## Usage
 
 ```bash
-npx @nikhilenigma/resume
+npx nikhilharmalkar-resume
 ```
 
 This command will display:

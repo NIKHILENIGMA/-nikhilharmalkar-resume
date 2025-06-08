@@ -1,16 +1,15 @@
 {
-  "name": "@nikhilharmalkar/resume",
+  "name": "nikhilharmalkar-resume",
   "description": "A CLI tool that displays Nikhil Harmalkar's resume when installed and run",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "bin": {
-    "@nikhilharmalkar/resume": "dist/index.js"
+    "nikhilharmalkar-resume": "dist/index.js"
   },
   "repository": {
-    "type": "git",
-    "url": ""
+    "url": "https://github.com/NIKHILENIGMA/-nikhilharmalkar-resume"
   },
   "scripts": {
     "build": "tsup"
